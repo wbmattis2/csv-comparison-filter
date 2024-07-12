@@ -16,7 +16,7 @@ Ensure that all the CSV files share a common column (e.g., a column containing e
 
 Download the csv-comparison-filter folder. Edit line 31 of csv-comparison-filter.py to ensure that target-column-label is set to the target column label used to identify records in your CSV files. 
 
-Place the files containing Set A in the "files-to-filter" folder, and place the files containing Set B in the "records-to-exclude" folder.
+Place the files containing Set A in a folder named "files-to-filter," and place the files containing Set B in a folder named "records-to-exclude." Put both of these folders in the folder named csv-comparison-filter (alongside csv-comparison-filter.py).
 
 Run csv-comparison-filter.py. Upon completion, versions of the "files-to-filter" files will be present in the "filtered-files" folder. The initial and final counts of records in each filtered file will be printed as output from Python.
 
